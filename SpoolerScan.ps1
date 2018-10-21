@@ -720,4 +720,4 @@ Add-Type -TypeDefinition $sourceSpooler
 
 $rprn = New-Object PingCastle.ExtractedCode.rprn
 
-$rprn.CheckIfTheSpoolerIsActive "192.168.0.20"
+$rprn.CheckIfTheSpoolerIsActive("192.168.0.20")
